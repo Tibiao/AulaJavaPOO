@@ -1,18 +1,18 @@
 package EstruturaBasica;
 
 //Exercicio
-class carro {
+class Carro {
 
     String cor;
     String modelo;
-    double capacidadeTanque;
+    int capacidadeTanque;
 
     // Metodo construtor
-    carro() {
+    Carro() {
 
     }
 
-    carro(String cor, String modelo, double capacidadeTanque) {
+    Carro(String cor, String modelo, int capacidadeTanque) {
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
@@ -34,11 +34,11 @@ class carro {
         return modelo;
     }
 
-    void getCapacidadeTanque(double capacidadeTanque) {
+    void setCapacidadeTanque(int capacidadeTanque) {
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    double setCapacidadeTanque() {
+    int getCapacidadeTanque() {
         return capacidadeTanque;
     }
 
